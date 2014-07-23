@@ -1,2 +1,3 @@
 Penetration-Test-Social-Engineering
 ===================================
+This is a simple website designed to test a user’s ability to detect malicious emails. For example, send an email to a user stating they have received a new fax and to click on a link to view it. Have the link display as "https://www.dropbox.com/meta_id/berqcn43crny4387rcn43xr" or any website that they shouldn't be receiving faxes at. The link should actually go to the index.html file. The link will need to include the users email in it, for example, "http://domain.com/index.html#email=user@domain.com". The users email, the date, and the time will be recorded to a csv. So for the example this line would be appended to the csv: "user@domain.com,Wed 07/23/2014,16:55:00.65".
